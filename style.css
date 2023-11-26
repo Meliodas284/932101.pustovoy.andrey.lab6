@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.main-block {
+	display: flex;
+	flex-direction: column;
+	width: 1000px;
+}
+
+.buttons-block {
+	display: flex;
+	justify-content: space-around;
+}
+
+.buttons-block a {
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	padding: 20px;
+	background-color: red;
+	border: 2px solid black;
+	width: 100%;
+}
+
+.images-block {
+	display: flex;
+	justify-content: center;
+}
+
+.images-block div {
+	padding: 10px;
+}
+
+.cat-image-block {
+	display: flex;
+	justify-content: center;
+	background-color: blue;
+	width: 50%;
+}
+
+.dog-image-block {
+	display: flex;
+	justify-content: center;
+	background-color: green;
+	width: 50%;
+}
+
+.cat-image-block img {
+	width: 100%;
+	flex-shrink: 0;
+}
+
+.dog-image-block img {
+	width: 100%;
+	flex-shrink: 0;
+}
